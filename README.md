@@ -21,5 +21,3 @@ This is a web application framework built with Laravel to TracK Projects and Sor
 ##### Add some files to the repository by running the command **git add** ..
 
 ##### Commit the changes by running the command **git commit -m "Initial commit**"
-
-#### Set Up on Server

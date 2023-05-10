@@ -9,7 +9,7 @@
     @method('PUT')
       <div class="modal-content">
         <div class="modal-header bg-bluedark">
-          <h5 class="modal-title" id="exampleModalLabel">Create New Task</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Edit {{ $task->name }}</h5>
           <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
         </div>
 

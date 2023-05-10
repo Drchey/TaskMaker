@@ -75,6 +75,7 @@
 
 
     @include('partials._addmodal')
+    @include('partials._sort')
 </div>
 
 

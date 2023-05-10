@@ -1,5 +1,7 @@
-<div class="card card_style" data-id="{{ $task->id }}" data-priority="{{ $task->priority }}">
+<div class="card card_style" data-id="{{ $task->id }}" data-order="{{ $task->order }}">
 
+
+    {{-- Card Component --}}
     <div class="card-body">
         <p>Name: {{ $task->name }}</p>
 

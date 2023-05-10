@@ -50,18 +50,13 @@
     </form>
 
     </div>
-
+<div class="row">
       @foreach ($tasks as $task)
-      <div class="container">
-
-         <div class="row">
-
                 @include('partials._card')
 
-            </div>
-      </div>
-
       @endforeach
+
+</div>
 
 
       {{ $tasks->links() }}
